@@ -1,0 +1,61 @@
+<div id="<%= dom_id mboard %>">
+<div class="card-list">
+  
+  <div class="card-list__item card card--cacoo">
+    <img class="card__thumbnail" src="https://nulab-inc.com/app/assets/img/blog/thumb_blog_cacoo.png" alt="Cacoo" />
+    <div class="card__content">
+      <h2 class="card__heading"><%= mboard.name %></h2>
+      <p class="card__text"><%= mboard.body %></p>
+    </div>
+  </div>
+  
+</div>
+
+</div>
+
+<style>
+  .card--cacoo {
+  order: 0;
+}
+
+.card--nulab {
+  order: 0;
+}
+
+.card--backlog {
+  order: 0;
+}
+
+.card-list {
+  display: flex;
+}
+.card-list__item {
+  width: 300px;
+  margin: 15px;
+}
+
+.card {
+  background-color: #f0f0f0;
+}
+.card__thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+.card__content {
+  padding: 15px;
+}
+.card__heading, .card__text {
+  color: #75768b;
+}
+.card__heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.card__text {
+  margin-top: 0;
+  font-size: 14px;
+}
+</style>
+
+
