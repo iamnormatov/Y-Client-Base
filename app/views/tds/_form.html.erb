@@ -1,0 +1,8 @@
+
+
+<div class="container__item">
+    <%= form_with(model: td, class: "form") do |form| %>
+      <%= form.text_field :name, class:"form__field"%>
+      <%= form.submit class:"btn btn--primary btn--inside uppercase"%>
+    <% end %>
+</div>
