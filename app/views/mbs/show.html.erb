@@ -1,0 +1,8 @@
+
+<%= render @mb %>
+
+<div>
+  <%= link_to "Edit this mb", edit_mb_path(@mb) %> |
+  <%= link_to "Back to mbs", mbs_path %>
+  <%= button_to "Destroy this mb", @mb, method: :delete %>
+</div>
