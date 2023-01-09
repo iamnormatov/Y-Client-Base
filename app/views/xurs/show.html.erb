@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @xur %>
+
+<div>
+  <%= link_to "Edit this xur", edit_xur_path(@xur) %> |
+  <%= link_to "Back to xurs", xurs_path %>
+
+  <%= button_to "Destroy this xur", @xur, method: :delete %>
+</div>
