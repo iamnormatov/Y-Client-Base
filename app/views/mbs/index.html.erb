@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Mbs</h1>
+
+<div id="mbs">
+  <% @mbs.each do |mb| %>
+    <%= render mb %>
+    <p>
+      <%= link_to "Show this mb", mb %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New mb", new_mb_path %>
