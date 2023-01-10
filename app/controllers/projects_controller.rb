@@ -5,7 +5,7 @@ class ProjectsController < ApplicationController
   def index
     @projects = Project.where(user_id: current_user.id)
   end
-
+ 
   # GET /projects/1 or /projects/1.json
   def show
     if current_user != @project.user
