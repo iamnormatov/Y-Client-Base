@@ -5,7 +5,7 @@ class MbsController < ApplicationController
   def index
     @mbs = Mb.all
   end
-
+ 
   # GET /mbs/1 or /mbs/1.json
   def show
   end
