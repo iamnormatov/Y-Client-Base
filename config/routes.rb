@@ -15,7 +15,7 @@ Rails.application.routes.draw do
     resources :mboards
 
     resources :tds
-    
+     
     resources :xurs
     
   end
