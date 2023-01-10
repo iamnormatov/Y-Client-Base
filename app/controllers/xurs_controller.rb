@@ -7,7 +7,7 @@ class XursController < ApplicationController
     @xurs = @project.xurs
     @xur = @project.xurs.new
   end
-
+ 
   # GET /xurs/1 or /xurs/1.json
   def show
   end
