@@ -6,7 +6,7 @@ class MboardsController < ApplicationController
     @project = Project.find(params[:project_id])
     @mboards = Mboard.all
   end
-
+ 
   # GET /mboards/1 or /mboards/1.json
   def show
     @mb = @mboard.mbs.new
